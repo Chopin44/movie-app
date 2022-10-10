@@ -7,3 +7,24 @@
 #container {
     margin-top: 40px;
 }
+
+
+
+@media screen and (max-width:768px) {
+    .col {
+        width: 7.5rem
+    }
+
+    .card {
+        width: 7rem
+    }
+    
+   .card-body {
+        margin-top: 5px;
+        padding: 0 5px
+    }
+    h5 {
+        font-size: 0.5rem;
+        font-weight: bold
+    }
+}
