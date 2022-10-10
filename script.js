@@ -29,7 +29,6 @@ search.addEventListener("submit", e => {
         </div>`
         html += htmlSegment
         contain.innerHTML = html   
-        
       });
       console.log(dataSearch);
     }
@@ -68,7 +67,7 @@ fetch("https://api.themoviedb.org/3/discover/movie?api_key=a648e8e7ea4db9c717c83
     })
        
 }).catch(err =>{
-  alert("An error was occured", err)
+  alert(err)
 });
 
   
